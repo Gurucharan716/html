@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video</title>
+  <style>
+    .vid{
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      margin-right: 20px;
+    }
+    .video{
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      height: 282px;
+    }
+    .div-1{
+      border-radius: 15px;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      width: 400px;
+      padding-left: 20px;
+      margin-top: 50px;
+      display: inline-block;
+      align-items: center;
+      margin-left: 500px;
+      border-color: black;
+      border-width: 1px;
+      border-style: solid;
+      padding-bottom: 10px;
+    }
+    .button{
+      background-color: rgb(78, 78, 226);
+      color: white;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+      border-style: none;
+      padding: 10px 10px 10px 10px;
+      margin-left: 140px;
+      cursor: pointer;
+    }
+    .thead{
+      background-color: lightblue;
+    }
+    .tbody{
+      background-color: lightpink;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/eCIaBtPndw4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    <video class="vid" src="video.mp4" controls width="500px"></video>
+    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/f_DUDNbwNRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="div-1">
+    <p>Do you want to go to vacation</p>
+    <input type="text" placeholder="Enter you Sweet name">
+    <p>Select the place you needed</p>
+    <select name="place" id="place">
+      <option value="places">Select your place</option>
+      <option value="places">UAE</option>
+      <option value="places">USA </option>
+      <option value="places">Japan </option>
+      <option value="places">India</option>
+      <option value="places">Russia</option><br>
+     </select><br>
+     <p>How many days do you want to travel with us</p>
+     <p>Please select one of these</p>
+     <label for="10 days">
+      <input type="radio" placeholder="section" value="section a" name="days" id="10 days"> 10 days
+    </label>
+
+    <label for="20 days">
+      <input type="radio" placeholder="section" value="section a" name="days" id="20 days"> 20 days
+    </label>
+    
+    <label for="30 days">
+      <input type="radio" placeholder="section" value="section a" name="days" id="30 days"> 30 days
+    </label><br>
+    <p>At which data your goning to plan the vacation</p>
+    <label for="start">Start date:</label>
+
+    <input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2022-07-14" max="2022-08-31">
+       <p>At which date for you to end the vacation</p>
+       <label for="start">End date:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2022-08-01" max="2022-08-31">
+       <button class="button">Submit</button>
+  </div>
+  <div>
+    <table>
+      <caption>India criketers score cards</caption>
+    <thead class="thead">
+      <tr>
+      <th>Batting</th>
+      <th>R</th>
+      <th>B</th>
+      <th>4s</th>
+      <th>6s</th>
+      <th>S/R</th>
+    </tr>
+  </thead>
+  <tbody class="tbody">
+    <tr>
+      <td>Rhoit Sharma (C)</td>
+      <td>76</td>
+      <td>58</td>
+      <td>7</td>
+      <td>5</td>
+      <td>131.03</td>
+    </tr>
+
+    <tr>
+      <td>Shikhar Dhawan</td>
+      <td>31</td>
+      <td>54</td>
+      <td>4</th>
+      <td>0</td>
+      <td>57.11</td>
+    </tr>
+
+    <tr>
+      <td>Virat Kohli</td>
+      <td>92</td>
+      <td>54</td>
+      <td>6</td>
+      <td>8</td>
+      <td>211.17</td>
+    </tr>
+    </tbody>
+  </table>
+  </div>
+</body>
+</html>
